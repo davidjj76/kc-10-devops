@@ -27,10 +27,10 @@ password
 
 - /apiv1/advertisements (GET)
 ```
-
+token
 ```
 
 - /apiv1/advertisements/tags (GET)
 ```
-
+token
 ```
