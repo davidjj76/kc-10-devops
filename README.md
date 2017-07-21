@@ -9,10 +9,10 @@ https://github.com/davidjj76/kc-05-wordplease
 
 Están disponibles los endpoints: 
 
-- (POST) https://nodepop.davidjj76.com/apiv1/users/
-- (POST) https://nodepop.davidjj76.com/apiv1/users/authenticate
-- (GET) https://nodepop.davidjj76.com/apiv1/users/advertisements
-- (GET) https://nodepop.davidjj76.com/apiv1/users/authenticate/tags
+- https://nodepop.davidjj76.com/apiv1/users/
+- https://nodepop.davidjj76.com/apiv1/users/authenticate
+- https://nodepop.davidjj76.com/apiv1/users/advertisements
+- https://nodepop.davidjj76.com/apiv1/users/authenticate/tags
 
 Despliegue de la práctica de node
 https://github.com/davidjj76/kc-06-nodepop
