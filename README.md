@@ -12,7 +12,22 @@ https://github.com/davidjj76/kc-06-nodepop
 
 Están disponibles los endpoints: 
 
-- /apiv1/users/
-- /apiv1/users/authenticate
-- /apiv1/users/advertisements
-- /apiv1/users/authenticate/tags
+- /apiv1/users/ (POST)
+```
+
+```
+
+- /apiv1/users/authenticate (POST)
+```
+
+```
+
+- /apiv1/users/advertisements (GET)
+```
+
+```
+
+- /apiv1/users/authenticate/tags (GET)
+```
+
+```
