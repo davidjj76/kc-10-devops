@@ -14,23 +14,20 @@ Están disponibles los endpoints:
 
 - /apiv1/users/ (POST) -> Da de alta un usuario
 ```
-name
-email
-password
+body {
+  name
+  email
+  password
+ }
 ```
 
 - /apiv1/users/authenticate (POST) -> Nos genera un token necesario para los siguientes endpoints
 ```
-email
-password
+body {
+  email
+  password
+}
 ```
 
-- /apiv1/advertisements (GET) -> Obtiene un listado de anuncios
-```
-token
-```
-
-- /apiv1/advertisements/tags (GET) -> Obtiene un listado de tags
-```
-token
-```
+- /apiv1/advertisements?token (GET) -> Obtiene un listado de anuncios
+- /apiv1/advertisements/tags?token (GET) -> Obtiene un listado de tags
