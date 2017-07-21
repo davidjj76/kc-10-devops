@@ -22,12 +22,12 @@ Están disponibles los endpoints:
 
 ```
 
-- /apiv1/users/advertisements (GET)
+- /apiv1/advertisements (GET)
 ```
 
 ```
 
-- /apiv1/users/authenticate/tags (GET)
+- /apiv1/advertisements/tags (GET)
 ```
 
 ```
