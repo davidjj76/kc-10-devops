@@ -21,7 +21,7 @@ body {
  }
 ```
 
-- /apiv1/users/authenticate (POST) -> Nos genera un token necesario para los siguientes endpoints
+- /apiv1/users/authenticate (POST) -> Nos genera un token necesario para los endpoints de anuncios
 ```
 body {
   email
@@ -29,5 +29,5 @@ body {
 }
 ```
 
-- /apiv1/advertisements?token (GET) -> Obtiene un listado de anuncios
-- /apiv1/advertisements/tags?token (GET) -> Obtiene un listado de tags
+- /apiv1/advertisements?token=my-token (GET) -> Obtiene un listado de anuncios
+- /apiv1/advertisements/tags?token=my-token (GET) -> Obtiene un listado de tags
