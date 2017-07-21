@@ -5,6 +5,8 @@
 Despliegue de la práctica de python-django
 https://github.com/davidjj76/kc-05-wordplease
 
+Puedes darte de alta y subir tus propios posts.
+
 ## Ejercicio 2: https://nodepop.davidjj76.com/
 
 Despliegue de la práctica de node
