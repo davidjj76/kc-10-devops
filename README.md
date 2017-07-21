@@ -14,12 +14,15 @@ Están disponibles los endpoints:
 
 - /apiv1/users/ (POST)
 ```
-
+name
+email
+password
 ```
 
 - /apiv1/users/authenticate (POST)
 ```
-
+email
+password
 ```
 
 - /apiv1/advertisements (GET)
